@@ -1,0 +1,6 @@
+open ihredomain.bplaced.net
+<username>
+<password>
+binary
+put ftp.txt
+bye
