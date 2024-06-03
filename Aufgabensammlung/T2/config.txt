@@ -1,0 +1,6 @@
+server=gabrielarocha7.bplaced.net
+port=21
+username=gabrielarocha7
+password=123
+local_path=C:\M293_Ania_Gabriel\D1\ranking.html
+remote_path=http://gabrielarocha7.bplaced.net/
