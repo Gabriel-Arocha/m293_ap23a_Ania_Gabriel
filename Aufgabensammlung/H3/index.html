@@ -8,106 +8,127 @@
 <body>
     <h1>Games Form</h1>
 
+    <form>
         <fieldset>
+            <legend>Select your favorite game</legend>
             <label>
-                <input type="radio">
+                <input type="radio" name="game">
                 The Legend of Zelda: Breath of the Wild
             </label><br>
             <label>
-                <input type="radio">
+                <input type="radio" name="game">
                 Minecraft
             </label><br>
             <label>
-                <input type="radio">
+                <input type="radio" name="game">
                 Grand Theft Auto V
             </label><br>
             <label>
-                <input type="radio">
+                <input type="radio" name="game">
                 Fortnite
             </label><br>
             <label>
-                <input type="radio">
+                <input type="radio" name="game">
                 Red Dead Redemption 2
             </label><br>
             <label>
-                <input type="radio">
+                <input type="radio" name="game">
                 Among Us
             </label><br>
             <label>
-                <input type="radio">
+                <input type="radio" name="game">
                 Cyberpunk 2077
             </label><br>
             <label>
-                <input type="radio">
+                <input type="radio" name="game">
                 The Witcher 3: Wild Hunt
             </label><br>
             <label>
-                <input type="radio">
+                <input type="radio" name="game">
                 Apex Legends
             </label><br>
             <label>
-                <input type="radio">
+                <input type="radio" name="game">
                 Call of Duty: Warzone
+            </label><br>
+            <label>
+                <input type="radio" name="game">
+                Other:
+                <input type="text" name="other-game">
             </label><br>
         </fieldset>
 
         <fieldset>
+            <legend>Select all games you have played</legend>
             <label>
-                <input type="checkbox">
+                <input type="checkbox" name="played-games" value="The Legend of Zelda: Breath of the Wild">
                 The Legend of Zelda: Breath of the Wild
             </label><br>
             <label>
-                <input type="checkbox">
+                <input type="checkbox" name="played-games" value="Minecraft">
                 Minecraft
             </label><br>
             <label>
-                <input type="checkbox">
+                <input type="checkbox" name="played-games" value="Grand Theft Auto V">
                 Grand Theft Auto V
             </label><br>
             <label>
-                <input type="checkbox">
+                <input type="checkbox" name="played-games" value="Fortnite">
                 Fortnite
             </label><br>
             <label>
-                <input type="checkbox">
+                <input type="checkbox" name="played-games" value="Red Dead Redemption 2">
                 Red Dead Redemption 2
             </label><br>
             <label>
-                <input type="checkbox">
+                <input type="checkbox" name="played-games" value="Among Us">
                 Among Us
             </label><br>
             <label>
-                <input type="checkbox">
+                <input type="checkbox" name="played-games" value="Cyberpunk 2077">
                 Cyberpunk 2077
             </label><br>
             <label>
-                <input type="checkbox">
+                <input type="checkbox" name="played-games" value="The Witcher 3: Wild Hunt">
                 The Witcher 3: Wild Hunt
             </label><br>
             <label>
-                <input type="checkbox">
+                <input type="checkbox" name="played-games" value="Apex Legends">
                 Apex Legends
             </label><br>
             <label>
-                <input type="checkbox">
+                <input type="checkbox" name="played-games" value="Call of Duty: Warzone">
                 Call of Duty: Warzone
             </label><br>
-        </fieldset>
-        <input type="checkbox">
-                i don't know any games
-            </label><br>
             <label>
-                <input type="checkbox">
-                other:
-                <input type="text">
+                <input type="checkbox" name="played-games" value="dont-know">
+                I don't know any games
+            </label><br>
+          <label>
+                <input type="radio" name="game">
+                Other:
+                <input type="text" name="other-game">
             </label>
-            <input type="submit" value="Submit">
+        </fieldset>
+
+        <input type="submit" value="Submit">
     </form>
-    <form>
-        <label>select picture:</label>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label>Select picture:</label>
         <input type="file" accept="image/*" required>
         <br><br>
-        <input type="submit" value="submit">
+        <input type="submit" value="Submit">
     </form>
+  <form action="#" method="post" enctype="multipart/form-data">
+  <label for="nationality">choose your nationality:</label>
+  <select name="nationality" id="nationality">
+    <optgroup label="Nationalities">
+      <option value="switzerland">Switzerland</option>
+      <option value="germany">Germany</option>
+    <option value="sweden">Sweden</option>
+          </optgroup>
+  </select>
+</form>
 </body>
 </html>
