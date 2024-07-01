@@ -17,3 +17,6 @@
 ## Colors
 - Background-Color Navbar: grey
 - Font-Color Navbar: white
+
+## Logo
+[Projekt_Filmsite/Bilder/LOGO.png]
