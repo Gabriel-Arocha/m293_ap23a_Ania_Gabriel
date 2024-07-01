@@ -19,4 +19,4 @@
 - Font-Color Navbar: white
 
 ## Logo
-[Projekt_Filmsite/Bilder/LOGO.png]
+![LOGO](https://github.com/Gabriel-Arocha/m293_ap23a_Ania_Gabriel/assets/142780256/fed79bb1-936d-4411-9d9e-5baa7569ff17)
