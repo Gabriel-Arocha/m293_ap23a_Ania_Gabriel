@@ -6,7 +6,7 @@ Feel free to navigate through the repository to better understand what our ideas
 
 Check out our [Styleguide](Projekt_Filmsite/StyleGuide.md) to see how our page is structured in a design sense.
 
-In the [Wireframe](Projekt_Filmsite/wireframe.png) you will see how our idea of the front page was like. It is important to mention that while facing several challenges it was crucial to be flexible with the wireframe and change the final version regarding to it.
+In the [Wireframe](Projekt_Filmsite/wireframe2.png) you will see how our idea of the front page was like. It is important to mention that while facing several challenges it was crucial to be flexible with the wireframe and change the final version regarding to it.
 
 Visit our movie page at http://gabrielarocha.bplaced.net/Projekt_Filmsite/
 
