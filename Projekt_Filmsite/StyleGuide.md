@@ -1,28 +1,50 @@
-# Styleguide
+## Styleguide
 
-## Typography
-- title (h1, h2): 1.5rem, zentriert, 20px Abstand
-- subtitle (h3): 1.5rem, 10px Abstand
-- font-color: weiß
-- font-family: Arial, sans-serif
+### Typography
 
-## Text Styles
-- h1, h2: 1.5rem, zentriert, 20px Abstand
-- h3: 1.5rem, 10px Abstand
+-   **Title (h1, h2):**
+    -   Font-size: 1.5rem
+    -   Text-align: center
+    -   Margin: 20px 0
+-   **Subtitle (h3):**
+    -   Font-size: 1.5rem
+    -   Margin: 10px 0
+-   **Font-color:** weiß
+-   **Font-family:** Arial, sans-serif
 
-## Body
-- Cards-Title: 1.5rem, 10px Padding
-- Cards-Text: 10px Padding
+### Text Styles
 
-## Colors
-- Background-Color Navbar: grau
-- Font-Color Navbar: weiß
+-   **h1, h2:**
+    -   Font-size: 1.5rem
+    -   Text-align: center
+    -   Margin: 20px 0
+-   **h3:**
+    -   Font-size: 1.5rem
+    -   Margin: 10px 0
 
-## Logo
-- ![LOGO](https://github.com/Gabriel-Arocha/m293_ap23a_Ania_Gabriel/assets/142780256/fed79bb1-936d-4411-9d9e-5baa7569ff17)
+### Body
 
-## Breakpoints für Responsive Design
-- Desktop: Keine speziellen Breakpoints erforderlich, Standard-Layout verwendet.
-- Smartphone (max-width: 767px):
-  - Anpassungen für kleinere Schriftgrössen, um die Lesbarkeit auf kleinen Bildschirmen zu verbessern.
-  - Elemente sollten sich automatisch an kleinere Bildschirme anpassen, ohne Scroll zu erfordern.
+-   **Cards-Title:**
+    -   Font-size: 1.5rem
+    -   Padding: 10px
+-   **Cards-Text:**
+    -   Padding: 10px
+
+### Colors
+
+-   **Background-Color Navbar:** #333 (dunkelgrau)
+-   **Font-Color Navbar:** weiß
+
+### Logo
+
+-   ![LOGO](https://github.com/Gabriel-Arocha/m293_ap23a_Ania_Gabriel/assets/142780256/fed79bb1-936d-4411-9d9e-5baa7569ff17 = 250x250)
+-   **Logo-Size:** width: 80px; height: auto;
+
+### Breakpoints für Responsive Design
+
+-   **Desktop:**
+    -   Keine speziellen Breakpoints erforderlich, Standard-Layout verwendet.
+-   **Smartphone (max-width: 767px):**
+    -   Anpassungen für kleinere Schriftgrößen, um die Lesbarkeit auf kleinen Bildschirmen zu verbessern.
+    -   Elemente sollten sich automatisch an kleinere Bildschirme anpassen, ohne Scrollen zu erfordern.
+    -   Navbar-Toggler sichtbar und Navigationslinks in einer Spalte zentriert.

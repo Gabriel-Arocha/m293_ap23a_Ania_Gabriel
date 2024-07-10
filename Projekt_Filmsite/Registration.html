@@ -4,44 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registrierung</title>
-    <link rel="stylesheet" href="stylesRegistation.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-dark">
-        <a class="navbar-brand" href="index.html">
-            <img src="Bilder/LOGO.png" alt="LOGO" class="LOGO" />
-            M293 Film Empfehlungen
-        </a>
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-        >
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="aboutUs.html">Über uns</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="allmovies.html">Alle Filme</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Login.html">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Registration.html">Registrieren</a>
-                </li>
-            </ul>
-        </div>
+      <a class="navbar-brand" href="index.html">
+        <img src="LOGO.png" alt="LOGO" class="LOGO" />
+        M293 Film Empfehlungen
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">Über uns</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="allmovies.html">Alle Filme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Registration.html">Registrieren</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <h1>Registrierung</h1>
     <form id="registration-form" action="Confirmation.html" method="get">
@@ -109,119 +109,28 @@
       </div>
       <button type="submit">Registrieren</button>
     </form>
-  </body>
-</html>
-========
-<!DOCTYPE html>
-<html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registrierung</title>
-    <link rel="stylesheet" href="stylesRegistation.css" />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <a class="navbar-brand" href="index.html">
-            <img src="Bilder/LOGO.png" alt="LOGO" class="LOGO" />
-            M293 Film Empfehlungen
-        </a>
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-        >
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="aboutUs.html">Über uns</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="allmovies.html">Alle Filme</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Login.html">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Registration.html">Registrieren</a>
-                </li>
-            </ul>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>Project for Module 293</p>
         </div>
-    </nav>
-    <h1>Registrierung</h1>
-    <form id="registration-form" action="Confirmation.html" method="get">
-      <div class="form-group">
-        <label for="geschlecht">Geschlecht:</label>
-        <div class="form-input">
-          <input
-            type="radio"
-            id="geschlecht-m"
-            name="geschlecht"
-            value="männlich"
-            required
-          />
-          <label for="geschlecht-m">Männlich</label>
-          <input
-            type="radio"
-            id="geschlecht-w"
-            name="geschlecht"
-            value="weiblich"
-            required
-          />
-          <label for="geschlecht-w">Weiblich</label>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: contact@mail.com</p>
+          <p>Phone: +1234567890</p>
         </div>
       </div>
-      <div class="form-group">
-        <label for="vorname">Vorname:</label>
-        <input type="text" id="vorname" name="vorname" required />
-      </div>
-      <div class="form-group">
-        <label for="nachname">Nachname:</label>
-        <input type="text" id="nachname" name="nachname" required />
-      </div>
-      <div class="form-group">
-        <label for="email">E-Mail:</label>
-        <input type="email" id="email" name="email" required />
-      </div>
-      <div class="form-group">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required />
-      </div>
-      <div class="form-group">
-        <label for="adresse">Adresse:</label>
-        <input type="text" id="adresse" name="adresse" required />
-      </div>
-      <div class="form-group">
-        <label for="plz">PLZ:</label>
-        <input type="text" id="plz" name="plz" required />
-      </div>
-      <div class="form-group">
-        <label for="ort">Ort:</label>
-        <input type="text" id="ort" name="ort" required />
-      </div>
-      <div class="form-group">
-        <label for="land">Land:</label>
-        <select id="land" name="land" required>
-          <option value="">Bitte wählen</option>
-          <option value="deutschland">Deutschland</option>
-          <option value="österreich">Österreich</option>
-          <option value="schweiz">Schweiz</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="datenschutz">Datenschutz akzeptieren:</label>
-        <input type="checkbox" id="datenschutz" name="datenschutz" required />
-      </div>
-      <button type="submit">Registrieren</button>
-    </form>
+      <div class="footer-bottom">&copy; 2024 M293. All rights reserved.</div>
+    </footer>
   </body>
 </html>
