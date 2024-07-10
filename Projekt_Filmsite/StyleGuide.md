@@ -3,7 +3,7 @@
 ## Typography
 - title (h1, h2): 1.5rem, zentriert, 20px Abstand
 - subtitle (h3): 1.5rem, 10px Abstand
-- font-color: weiß
+- font-color: weiss
 - font-family: Arial, sans-serif
 
 ## Text Styles
