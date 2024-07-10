@@ -65,9 +65,15 @@ main {
   color: #ddd;
 }
 
-h1 {
+h1, h2 {
+  font-size: 1.5rem;
   text-align: center;
   margin: 20px 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
 }
 
 .card-group {
@@ -98,7 +104,7 @@ h1 {
 }
 
 .card-body {
-  padding: 15px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -108,10 +114,11 @@ h1 {
 .card-title {
   font-size: 1.5rem;
   margin-bottom: 10px;
+  padding: 10px;
 }
 
 .card-text {
-  margin-bottom: 10px;
+  padding: 10px;
 }
 
 .card:hover {
@@ -146,9 +153,26 @@ h1 {
   }
 }
 
-h2 {
-  text-align: center;
-  margin: 20px 0;
+@media (max-width: 750px) {
+  h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .LOGO {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .container {
+    padding: 10px;
+  }
 }
 
 form {
@@ -301,24 +325,7 @@ button:hover {
   .container {
     padding: 10px;
   }
-
-  h1 {
-    font-size: 28px;
-    margin-bottom: 15px;
-  }
-
-  p {
-    font-size: 16px;
-    margin-bottom: 8px;
-  }
-  .LOGO {
-    width: 60px;
-    height: auto;
-    margin-right: 10px;
-  }
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 
 .overlay {
   position: fixed;
@@ -441,6 +448,7 @@ button:hover {
   visibility: visible;
   left: 0;
 }
+
 #hamburger-input:checked ~ .overlay {
   visibility: visible;
   opacity: 0.4;
@@ -450,6 +458,7 @@ button:hover {
   #main-menu {
     display: none;
   }
+
   #hamburger-menu {
     display: inline;
   }
