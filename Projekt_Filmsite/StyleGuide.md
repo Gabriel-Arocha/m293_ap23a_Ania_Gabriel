@@ -16,7 +16,7 @@
 
 ## Colors
 - Background-Color Navbar: grau
-- Font-Color Navbar: weiß
+- Font-Color Navbar: weiss
 
 ## Logo
 - ![LOGO](https://github.com/Gabriel-Arocha/m293_ap23a_Ania_Gabriel/assets/142780256/fed79bb1-936d-4411-9d9e-5baa7569ff17)
